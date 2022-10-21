@@ -38,9 +38,9 @@ The Simple Tracker ROS2 container should now be running without any UI
 1. Open the **simpletracker-ros2-ui-ws** project folder using VS Code
 2. Run this project using VS Code with the dev container extension installed as a dev container
 3. From within the VS Code terminal type the following:
-  - If this is the first time you running the application since the container was built, type `./setup.sh`
-  - If `./setup.sh` has previously been run in this container instance, type `./build.sh`
-  - This should launch the visualiser
+ - If this is the first time you running the application since the container was built, type `./setup.sh`
+ - If `./setup.sh` has previously been run in this container instance, type `./build.sh`
+ - This should launch the visualiser
 4. If you want to see additional windows uncomment the mappings in the simple_tracker_launch.py file in the simple_tracker_launch/launch folder
 
 #### UI TODO:
