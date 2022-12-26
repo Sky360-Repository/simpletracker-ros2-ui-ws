@@ -27,11 +27,16 @@
   ```
 6. type `ctrl + x`
 7.  `y`
-8. run `source /root/.bashrc`
-9. run `./build.sh`
-10. run `source /root/.bashrc`
-11. run `./build.sh`
-12. run `./launch.sh`
+8. run `./build.sh`
+
+**NOTE** if you see the following error: `/usr/bin/python3.10: No module named rosidl_adapter` in red, then rerun the following commands: 
+
+  1. `source /root/.bashrc` to source the ros2 install
+  2. `./build.sh` to setup and run the simple tracker ros2
+
+Finally, launch the application using:
+
+9. run `./launch.sh`
 
 The Simple Tracker ROS2 container should now be running without any UI
 
