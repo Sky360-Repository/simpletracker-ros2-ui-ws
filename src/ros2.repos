@@ -4,7 +4,7 @@
 # Example:
 ############
 repositories:
-  examples:
+  simeple_tracker_ros:
     type: git
-    url: https://github.com/ros2/examples.git
-    version: foxy
+    url: https://github.com/Sky360-Repository/simpletracker-ros2-ws.git
+    version: main
